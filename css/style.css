@@ -42,7 +42,10 @@ img {
 }
 
 .hero {
-    background-color: #F2CEDA;
+    background-image: url(/img/content/background-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     height: 100vh;
 }
 
@@ -84,12 +87,13 @@ img {
 }
 
 .nav__link {
-    color: rgba(0, 0, 0, 0.527);
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
-
+    color: #150101;
+    opacity: 0.6;
 }
 
 .btn {
@@ -101,4 +105,44 @@ img {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
+}
+
+.content {
+    max-width: 49%;
+    padding-top: 186px;
+    color: #0F0101;
+}
+
+.content__desc {}
+
+.content__headline {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+}
+
+.title {
+    font-family: 'Fredoka One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 57.33px;
+    line-height: 120.5%;
+    opacity: 0.9;
+}
+
+span {
+    color: #D23166;
+}
+
+.content__text {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #0F0101;
+    opacity: 0.6;
+    margin-bottom: 50px;
 }
