@@ -195,3 +195,78 @@ img {
     background-repeat: no-repeat;
     background-position: center bottom;
 }
+
+.information {
+    padding: 100px 0 100px;
+}
+
+.info__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info__item {
+    width: calc(25% - 30px);
+}
+
+.product-card {
+    width: 250px;
+    height: 200px;
+    overflow: hidden;
+    text-align: center;
+    padding: 30px 25px 30px 25px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.03);
+    border-radius: 7px;
+}
+
+.product-card:last-child {
+    padding: 21px 25px 30px 25px;
+}
+
+.product-card__img-wrap {
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 18px;
+}
+
+.bus__img {
+    width: 51px;
+    height: 43.35px;
+}
+
+.pack__img {
+    width: 27.37px;
+    height: 42.01px;
+}
+
+.cash__img {
+    width: 44px;
+    height: 44px;
+}
+
+.fast__img {
+    width: 54px;
+    height: 54px;
+}
+
+.product-card__img {
+    object-fit: cover;
+}
+
+.product-card__title {
+    margin-bottom: 13px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    color: black;
+}
+
+.product-card__desc {
+    font-family: 'Hind Madurai';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+}
