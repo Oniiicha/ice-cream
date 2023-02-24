@@ -198,16 +198,16 @@ img {
     background-position: center bottom;
 }
 
-.information {
+.delivery {
     padding: 100px 0 100px;
 }
 
-.info__list {
+.delivery__list {
     display: flex;
     justify-content: space-between;
 }
 
-.info__item {
+.delivery__item {
     width: calc(25% - 30px);
 }
 
@@ -218,15 +218,15 @@ img {
     text-align: center;
     padding: 30px 25px 30px 25px;
     background: #FFFFFF;
-    border: 1px solid rgba(0, 0, 0, 0.03);
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.03);
     border-radius: 7px;
 }
 
-.product-card:last-child {
+.delivery-card:last-child {
     padding: 21px 25px 30px 25px;
 }
 
-.product-card__img-wrap {
+.delivery-card__img-wrap {
     width: 100%;
     overflow: hidden;
     margin-bottom: 18px;
@@ -252,11 +252,11 @@ img {
     height: 54px;
 }
 
-.product-card__img {
+.delivery-card__img {
     object-fit: cover;
 }
 
-.product-card__title {
+.delivery-card__title {
     margin-bottom: 13px;
     font-weight: 600;
     font-size: 20px;
@@ -264,7 +264,7 @@ img {
     color: black;
 }
 
-.product-card__desc {
+.delivery-card__desc {
     font-family: 'Hind Madurai';
     font-weight: 400;
     font-size: 14px;
@@ -273,24 +273,24 @@ img {
     color: rgba(0, 0, 0, 0.6);
 }
 
-.details {
+.order {
     width: 100%;
     height: 544px;
     background: #F8EDF0;
 }
 
-.details__content {
+.order__content {
     display: flex;
     align-items: center;
 }
 
-.details__desc {
+.order__desc {
     width: 442px;
     height: 257px;
     margin-bottom: 117px;
 }
 
-.details__title {
+.order__title {
     font-family: 'Hind Madurai';
     font-weight: 600;
     font-size: 44.2px;
@@ -299,7 +299,7 @@ img {
     margin-bottom: 15px;
 }
 
-.details__text {
+.order__text {
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 16px;
@@ -308,8 +308,61 @@ img {
     margin-bottom: 25px;
 }
 
-.details__image {
+.order__img-wrap {
     padding-left: 150px;
 }
 
-.details__img {}
+.menu {}
+
+.menu__title {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44.2px;
+    line-height: 61px;
+    text-align: center;
+    color: #150101;
+    margin-bottom: 64px;
+    margin-top: 140px;
+}
+
+.product {
+    height: 100vh;
+    text-align: center;
+}
+
+.product__list {
+    display: flex;
+    text-align: center;
+}
+
+.product__item {
+    margin-right: 40px;
+    align-items: center;
+}
+
+.product__item:last-child {
+    margin-right: 0px;
+}
+
+.product__link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.product__color {
+    color: #000000;
+
+}
+
+.product__color::after {
+    content: "";
+    display: block;
+    width: 91px;
+    height: 2px;
+    background-color: red;
+}
