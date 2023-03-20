@@ -9,7 +9,7 @@ body {
 
 body {
     margin: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Hind Madurai';
 }
 
 .wrapper {
@@ -70,8 +70,6 @@ img {
     object-fit: contain;
 }
 
-.nav {}
-
 .nav__list {
     display: flex;
 }
@@ -86,7 +84,6 @@ img {
 
 .nav__link {
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
@@ -104,11 +101,9 @@ img {
 
 .btn {
     background: #D23166;
-    border: #D23166;
+    border: none;
     border-radius: 5px;
     padding: 14px 50px;
-    font-family: 'Hind Madurai';
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 22px;
@@ -128,7 +123,6 @@ img {
 }
 
 .content__headline {
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -137,7 +131,6 @@ img {
 
 .title {
     font-family: 'Fredoka One';
-    font-style: normal;
     font-weight: 400;
     font-size: 57.33px;
     line-height: 120.5%;
@@ -150,8 +143,6 @@ img {
 }
 
 .content__text {
-    font-family: 'Hind Madurai';
-    font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 27px;
@@ -265,7 +256,6 @@ img {
 }
 
 .delivery-card__desc {
-    font-family: 'Hind Madurai';
     font-weight: 400;
     font-size: 14px;
     line-height: 19px;
@@ -291,7 +281,6 @@ img {
 }
 
 .order__title {
-    font-family: 'Hind Madurai';
     font-weight: 600;
     font-size: 44.2px;
     line-height: 49px;
@@ -315,8 +304,6 @@ img {
 .menu {}
 
 .menu__title {
-    font-family: 'Hind Madurai';
-    font-style: normal;
     font-weight: 600;
     font-size: 44.2px;
     line-height: 61px;
@@ -327,13 +314,13 @@ img {
 }
 
 .product {
-    height: 100vh;
     text-align: center;
 }
 
 .product__list {
     display: flex;
     text-align: center;
+    justify-content: center;
 }
 
 .product__item {
@@ -347,7 +334,6 @@ img {
 
 .product__link {
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 21px;
@@ -365,4 +351,65 @@ img {
     width: 91px;
     height: 2px;
     background-color: red;
+}
+
+.product__menu {}
+
+.product__menu-list {}
+
+.product__menu-item {
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.product__menu-item:nth-child(even) {
+    flex-direction: row-reverse;
+    text-align: right;
+}
+
+.image {
+    width: 580px;
+    height: 415px;
+}
+
+.product__menu-content {
+    padding-top: 125px;
+    margin-left: 85px;
+}
+
+.product__menu-title {
+    margin-bottom: 11px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 36px;
+    color: #000000;
+}
+
+.product__menu-paragrap {
+    margin-bottom: 28px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.product__menu-price {
+    margin-bottom: 10px
+}
+
+.price__new {
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 36px;
+    color: #000000;
+}
+
+.price__old {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    text-decoration-line: line-through;
+    color: rgba(0, 0, 0, 0.7);
 }
