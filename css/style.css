@@ -523,3 +523,130 @@ img {
 .avatars__img {}
 
 .feedback__decor {}
+
+.application {
+    background-color: rgb(248, 237, 240);
+    font-family: 'Roboto';
+}
+
+.app__desc {
+    display: flex;
+}
+
+.app__img-wrap {
+    margin-top: 39px;
+
+}
+
+.app__img {
+    width: 305px;
+    height: 627px;
+}
+
+.app__content {
+    margin-top: 70px;
+    padding-left: 135px;
+}
+
+.app__title {
+    font-weight: 500;
+    font-size: 44.2px;
+    line-height: 52px;
+    margin-bottom: 20px;
+}
+
+.app__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.01em;
+    color: rgba(15, 1, 1, 0.7);
+    margin-bottom: 29px;
+}
+
+.app__bonus {
+    margin-bottom: 50px;
+}
+
+.app__bonus-list {
+    display: flex;
+}
+
+.app__bonus-img__wrap {
+    border-radius: 3px;
+    overflow: hidden;
+    text-align: center;
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    margin-bottom: 15px;
+}
+
+.app__bonus-img__wrap:last-child {
+    margin-bottom: 0px;
+}
+
+.app__bonus-img {
+    margin-top: 7px;
+}
+
+.app__bonus-text {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    margin-left: 10px;
+}
+
+.app__download-link {
+    margin-right: 20px;
+}
+
+.app__download-link:last-child {
+    margin-right: 0px;
+}
+
+.question {
+    height: 565px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.quest__content {}
+
+.title {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.input {
+    width: 503px;
+    height: 74px;
+    color: #fff;
+    border: none;
+    background-color: transparent;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: rgba(15, 0, 0, 0.6);
+}
+
+.button__submit {
+    width: 134px;
+    height: 74px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    background-color: #D64374;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+}
